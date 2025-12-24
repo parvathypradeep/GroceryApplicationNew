@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-22T07:49:41 IST" name="Suite" finished-at="2025-12-22T07:49:47 IST" duration-ms="6048">
+    <groups>
+    </groups>
+    <test started-at="2025-12-22T07:49:41 IST" name="Test" finished-at="2025-12-22T07:49:47 IST" duration-ms="6048">
+      <class name="testscript.HomeTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.HomeTest@45385f75]" started-at="2025-12-22T07:49:41 IST" name="initializeBrowser" finished-at="2025-12-22T07:49:43 IST" duration-ms="2595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserIsAbletoSuccessfullyLoggedOut()[pri:0, instance:testscript.HomeTest@45385f75]" started-at="2025-12-22T07:49:43 IST" name="verifyUserIsAbletoSuccessfullyLoggedOut" description="user is trying to logout successfully" finished-at="2025-12-22T07:49:47 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbletoSuccessfullyLoggedOut -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscript.HomeTest@45385f75]" started-at="2025-12-22T07:49:47 IST" name="driverQuit" finished-at="2025-12-22T07:49:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbletoSuccessfullyLoggedOut status=SUCCESS method=HomeTest.verifyUserIsAbletoSuccessfullyLoggedOut()[pri:0, instance:testscript.HomeTest@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscript.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
